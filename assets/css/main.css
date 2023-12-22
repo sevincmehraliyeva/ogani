@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+
+nav {
+  width: 85%;
+  margin: auto;
+}
+
+.collapse {
+  justify-content: center;
+}
+
+.iconDiv {
+  display: flex;
+  gap: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+#organicVegetable .text {
+  padding-left: 75px;
+  margin-right: -20px;
+  width: 100%;
+}
+#organicVegetable .text span {
+  color: #7FAD39;
+}
+#organicVegetable .text h1 {
+  font-weight: 300px;
+}
+#organicVegetable .text p {
+  padding: 10px;
+}
+#organicVegetable .text #btnShop {
+  padding: 5px 20px;
+  border: 1px solid #7FAD39;
+  background-color: #7FAD39;
+  color: white;
+}
+#organicVegetable .fruit img {
+  width: 100%;
+  min-height: 400px;
+}
+
+#vegetablesSec .vegetables {
+  width: 100%;
+}
+#vegetablesSec .vegetables img {
+  width: 100%;
+}
+#vegetablesSec .vegetables p {
+  text-align: center;
+  margin: -20px;
+}
+
+#featuredProduct .drinkFruits .best h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+#featuredProduct .drinkFruits .best .line {
+  background-color: #7FAD39;
+  min-height: 3px;
+  max-width: 60px;
+}
+#featuredProduct .allFruits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+#summerFruit {
+  width: 100%;
+}
+#summerFruit .natural img {
+  width: 100%;
+}
+
+#select #product .boxDiv img {
+  width: 100%;
+}
